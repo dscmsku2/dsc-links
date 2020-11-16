@@ -1,26 +1,27 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">dsc-links</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+  <div class="container my-4 w-full">
+    <div class="flex flex-col items-center justify-center">
+      <div class="bg-green-500 w-32 h-32 rounded-full"></div>
+      <h1 class="text-2xl font-bold">Muğla Sıtkı Koçman Üniversitesi</h1>
+      <h1 class="my-2 text-sm">Developers Student Club</h1>
+      <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded-lg w-full">
+        Github Etkinliği
+      </button>
+      <button class="mt-4 bg-red-600 text-white px-4 py-2 rounded-lg w-full">
+        <span class="mdi mdi-youtube"></span> Youtube
+      </button>
+      <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg w-full">
+        <span class="mdi mdi-twitter"></span> Twitter
+      </button>
+      <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg w-full">
+        <span class="mdi mdi-facebook"></span> Facebook
+      </button>
+      <button class="mt-4 bg-green-600 text-white px-4 py-2 rounded-lg w-full">
+        <span class="mdi mdi-whatsapp"></span> Whatsapp
+      </button>
+      <button class="mt-4 bg-blue-400 text-white px-4 py-2 rounded-lg w-full">
+        <span class="mdi mdi-discord"></span> Discord
+      </button>
     </div>
   </div>
 </template>
@@ -29,40 +30,4 @@
 export default {}
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
+<style></style>

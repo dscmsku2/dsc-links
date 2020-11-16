@@ -13,7 +13,9 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "nuxt-webfontloader": "^1.1.0",
+    "nuxtjs-mdi-font": "^1.0.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
@@ -24,6 +26,9 @@
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.2"
+    "fibers": "^5.0.0",
+    "prettier": "^2.1.2",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0"
   }
 }
