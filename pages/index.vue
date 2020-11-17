@@ -7,7 +7,7 @@
       <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded-lg w-full">
         Github Etkinliği
       </button>
-      <button class="mt-4 bg-red-600 text-white px-4 py-2 rounded-lg w-full">
+      <button class="mt-4 bg-red-850 text-white px-4 py-2 rounded-lg w-full">
         <span class="mdi mdi-youtube"></span> Youtube
       </button>
       <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg w-full">
@@ -27,7 +27,16 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    script: [
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
+      },
+    ],
+  },
+}
 </script>
 
 <style></style>
