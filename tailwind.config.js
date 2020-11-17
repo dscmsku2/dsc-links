@@ -24,7 +24,6 @@ module.exports = {
       display: ['Poppins', 'sans-serif'],
       body: ['Poppins', 'sans-serif']
     },
-  },
-  variants: {},
-  plugins: []
-}
+    variants: {},
+    plugins: []
+};
