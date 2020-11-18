@@ -26,7 +26,7 @@ module.exports = {
       }),
       color:{
         primary:{
-          defaultBlue: '4285F4',
+          defaultBlue: '#4285F4',
           lightBlue:'#3FA9F5',
           defaultOrange: '#F4B400',
           twitterbg: '#00ACED',

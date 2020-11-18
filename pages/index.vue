@@ -1,7 +1,7 @@
-<template  >
+<template>
 
-  <div class=" bg-gradient-to-t container my-4 w-full">
-    <div class=" bg-gradient-to-t div-head flex flex-col items-center justify-center">
+  <div class=" bg-background container my-4 w-full">
+    <div class="flex flex-col items-center justify-center">
       
       <div class="bg-blue-500 px-6 py-2 rounded-xl mt-4 w-70 h-55 "> <img class="h-48 w-full object-cover rounded-full" src="gdsc-logo.png" alt="logo"></div>
     
@@ -11,7 +11,7 @@
       <div class="inline">
 
     
-      <button class=" inline btn-youtube mt-4 bg-red-700 text-white px-6 py-2 rounded-lg">
+      <button class="btn-youtube inline mt-4 bg-red-700 text-white px-6 py-2 rounded-lg">
         <span class="mdi w-full rounded-lg mdi-youtube"></span> 
       </button>
       <button class="btn-twitter inline mt-4 bg-blue-500 text-white px-6 py-2 rounded-lg ">
