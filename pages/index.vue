@@ -12,28 +12,28 @@
       </button>
         <div class="inline">
         <button class="btn-ig inline-block mt-4 mb-6 bg-gray-800 text-white px-6 py-2 rounded-lg ">
-        <img class="h-10 w-10 rounded-lg " src="/ig-logo.png"></img>
+        <img class="h-10 w-10 rounded-lg " src="/ig-logo.png">
       </button>
 
         <button class="btn-discord mt-4 bg-blue-400 text-white px-6 py-2 rounded-lg ">
-        <img class="h-10 w-10 rounded-lg " src="/discord.png"></img>
+        <img class="h-10 w-10 rounded-lg " src="/discord.png">
       </button>
       
       <button class="btn-twitter inline mt-4 bg-blue-900 text-white px-6 py-2 rounded-lg ">
-        <img class="h-10 w-10 rounded-lg " src="/tw-logo.png"></img>
+        <img class="h-10 w-10 rounded-lg " src="/tw-logo.png">
       </button>
       
       <div class=" bottom-div block-flex justify-center items-center" >
         <button class="btn-whatsapp inline mt-4 bg-green-600 text-white px-6 py-2 rounded-lg ">
-        <img class=" rounded-lg w-10 h-10 " src="/wp-logo.png"></img>
+        <img class=" rounded-lg w-10 h-10 " src="/wp-logo.png">
       </button>
 
       <button class="btn-github mt-4 bg-gray-200 text-white px-6 py-2 rounded-lg ">
-       <img class="h-10 w-10 rounded-lg " src="/github.png"></img>
+       <img class="h-10 w-10 rounded-lg " src="/github.png">
       </button>
 
       <button class="btn-youtube inline  mt-4 mb-1 bg-gray-900 text-white px-6 py-2 rounded-lg">
-        <img class="h-10 w-10 rounded-lg " src="/yt-logo.png"></img>
+        <img class="h-10 w-10 rounded-lg " src="/yt-logo.png">
       </button>
       
       </div>
