@@ -46,7 +46,7 @@
      
     </div>
     <p class="flex flex-col text-center font-sans justify-center"> <b>... </b> </p>
-    <p class =" flex flex-col text-center font-sans font-30  justify-center"> Created By GDSC MSKU Core Team </p>
+    <p class =" flex flex-col text-center font-sans font-30  justify-center"> Created By DSC MSKU Core Team </p>
   </div>
 
   
