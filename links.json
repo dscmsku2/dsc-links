@@ -1,12 +1,24 @@
-[
-    {
-        "link": "youtube.com",
-        "color": "red-500",
-        "icon": "mdi-youtube"
-    },
-    {
-        "link": "youtube.com",
-        "color": "red-500",
-        "icon": "mdi-youtube"
-    }
-]
+{
+    "youtube": "#",
+    "instagram": "#",
+    "github": "#",
+    "discord": "#",
+    "twitter": "#",
+    "whatsapp": "#",
+    "links": [
+        {
+            "title": "Next Event",
+            "link": "https://google.com",
+            "bgColor": "red",
+            "textColor": "white",
+            "newTab": false
+        },
+        {
+            "title": "Next Event",
+            "link": "https://google.com",
+            "bgColor": "blue",
+            "textColor": "white",
+            "newTab": false
+        }
+    ]
+}

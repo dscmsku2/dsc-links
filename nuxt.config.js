@@ -27,6 +27,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     // '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
+    '@aceforth/nuxt-optimized-images',
     '@nuxtjs/tailwindcss',
     'nuxt-webfontloader',
     'nuxtjs-mdi-font',
@@ -41,8 +42,34 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    '@nuxtjs/firebase',
   ],
+
+  firebase: {
+    config: {
+      apiKey: 'AIzaSyA-EaEL2jb8XhP4wly6W3wHmFS7q0NZ7rc',
+      authDomain: 'dsc-link.firebaseapp.com',
+      databaseURL: 'https://dsc-link.firebaseio.com',
+      projectId: 'dsc-link',
+      storageBucket: 'dsc-link.appspot.com',
+      messagingSenderId: '954244865743',
+      appId: '1:954244865743:web:65a69de6fafe1faea2a1ba',
+      measurementId: 'G-C11KK9F2VL'
+    },
+    services: {
+      analytics: true,
+      messaging: {
+        createServiceWorker: true,
+        actions: [
+          {
+            action: 'randomName',
+            url: 'randomUrl'
+          }
+        ],
+        fcmPublicVapidKey: 'BBemCuzpxFqGWPJ_aiQiKzNkh8u974AlXTwCr2EbGfZm8FzJ7kQ0yyXdaaQznzYWxxn3KCEVy9No0c_IbexMuck' // OPTIONAL : Sets vapid key for FCM after initialization
+      }
+    }
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
