@@ -9,15 +9,8 @@
         {
             "title": "Next Event",
             "link": "https://google.com",
-            "bgColor": "red",
-            "textColor": "white",
-            "newTab": false
-        },
-        {
-            "title": "Next Event",
-            "link": "https://google.com",
-            "bgColor": "blue",
-            "textColor": "white",
+            "bgColor": "#ffa000",
+            "textColor": "#2e3135",
             "newTab": false
         }
     ]
