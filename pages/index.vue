@@ -52,7 +52,7 @@
           <div class="px-2">
             <a
               class="mt-4 bg-gray-800 hover:bg-gray-700 flex items-center justify-content-center px-6 rounded-lg"
-              :href="props.instagram"
+              :href="props.whatsapp"
             >
               <span class="mdi mdi-whatsapp text-white text-3xl"></span>
             </a>
@@ -60,7 +60,7 @@
           <div class="px-2">
             <a
               class="mt-4 bg-gray-800 hover:bg-gray-700 flex items-center justify-content-center px-6 rounded-lg"
-              :href="props.discord"
+              :href="props.github"
             >
               <span class="mdi mdi-git text-white text-3xl"></span>
             </a>
@@ -68,7 +68,7 @@
           <div class="px-2">
             <a
               class="mt-4 bg-gray-800 hover:bg-gray-700 flex items-center justify-content-center px-6 rounded-lg"
-              :href="props.twitter"
+              :href="props.youtube"
             >
               <span class="mdi mdi-youtube text-white text-3xl"></span>
             </a>
