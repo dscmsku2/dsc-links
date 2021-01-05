@@ -25,7 +25,7 @@
         <div class="flex justify-evenly">
           <div class="px-2">
             <a
-              class="mt-4 bg-gray-800 flex items-center justify-content-center px-6 rounded-lg"
+              class="mt-4 bg-gray-800 hover:bg-gray-700 flex items-center justify-content-center px-6 rounded-lg"
               :href="props.instagram"
             >
               <span class="mdi mdi-instagram text-white text-3xl"></span>
@@ -33,7 +33,7 @@
           </div>
           <div class="px-2">
             <a
-              class="mt-4 bg-gray-800 flex items-center justify-content-center px-6 rounded-lg"
+              class="mt-4 bg-gray-800 hover:bg-gray-700 flex items-center justify-content-center px-6 rounded-lg"
               :href="props.discord"
             >
               <span class="mdi mdi-discord text-white text-3xl"></span>
@@ -41,7 +41,7 @@
           </div>
           <div class="px-2">
             <a
-              class="mt-4 bg-gray-800 flex items-center justify-content-center px-6 rounded-lg"
+              class="mt-4 bg-gray-800 hover:bg-gray-700 flex items-center justify-content-center px-6 rounded-lg"
               :href="props.twitter"
             >
               <span class="mdi mdi-twitter text-white text-3xl"></span>
@@ -51,7 +51,7 @@
         <div class="flex justify-evenly">
           <div class="px-2">
             <a
-              class="mt-4 bg-gray-800 flex items-center justify-content-center px-6 rounded-lg"
+              class="mt-4 bg-gray-800 hover:bg-gray-700 flex items-center justify-content-center px-6 rounded-lg"
               :href="props.instagram"
             >
               <span class="mdi mdi-whatsapp text-white text-3xl"></span>
@@ -59,7 +59,7 @@
           </div>
           <div class="px-2">
             <a
-              class="mt-4 bg-gray-800 flex items-center justify-content-center px-6 rounded-lg"
+              class="mt-4 bg-gray-800 hover:bg-gray-700 flex items-center justify-content-center px-6 rounded-lg"
               :href="props.discord"
             >
               <span class="mdi mdi-git text-white text-3xl"></span>
@@ -67,7 +67,7 @@
           </div>
           <div class="px-2">
             <a
-              class="mt-4 bg-gray-800 flex items-center justify-content-center px-6 rounded-lg"
+              class="mt-4 bg-gray-800 hover:bg-gray-700 flex items-center justify-content-center px-6 rounded-lg"
               :href="props.twitter"
             >
               <span class="mdi mdi-youtube text-white text-3xl"></span>
